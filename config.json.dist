@@ -1,0 +1,10 @@
+{
+	"pviuser": "max.muster",
+	"pvipassword": "passwort",
+	"smtpserver": "smtprelaypool.ispgateway.de",
+	"smtpuser": "username@domain.tld",
+	"smtppassword": "passwort",
+	"smtpdebuglevel": 0, 
+	"sender": "user@server.tld",
+	"receiver": "max.muster@campus.lmu.de"
+}

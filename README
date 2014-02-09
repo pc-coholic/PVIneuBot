@@ -1,0 +1,9 @@
+Dieser Bot schickt dir jedes Mal eine eMail, wenn sich das XML-File für dein Transcript of Records auf http://pvineu.ifi.lmu.de/ ändert.
+
+Logisch, dazu musst du aber auch einen Account auf PVIneu haben: Also ein Informatik-Student der LMU-München sein.
+
+Um den Bot in Betrieb zu nehmen, muss das config.json.dist-File in config.json umbenannt und entsprechend editiert werden - der Mailserver muss SSL sprechen.
+
+Es empfiehlt sich dann, das Script regelmäßig auszuführen, ein Crobjob der dies bspw. jede Stunde tut wäre wie folgt zu definieren:
+
+0 * * * * cd /pfad/zum/script/; /usr/local/bin/python3.3 /pfad/zum/script/pvineu.py
